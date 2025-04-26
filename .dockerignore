@@ -8,3 +8,7 @@ build/
 dist/
 .eggs/
 *.egg-info/
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
