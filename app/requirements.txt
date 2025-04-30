@@ -4,3 +4,5 @@ gunicorn
 sentence-transformers
 pydantic
 huggingface_hub[hf_xet]
+slowapi
+python-multipart
