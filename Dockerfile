@@ -15,4 +15,4 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 COPY app/ /app/
 
 # Use Gunicorn + Uvicorn worker for production
-CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "main:app", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "main:app", "--bind", "0.0.0.0:8001"]
